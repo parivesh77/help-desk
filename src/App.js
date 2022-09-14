@@ -1,8 +1,15 @@
-import './App.css';
+import { Container } from "@mui/material";
+import "./App.css";
+import Header from "./component/header/Header";
+import Login from "./component/login/Login";
 
 function App() {
   return (
-    <div className="App"><h1>Help Desk Development</h1></div>
+    <Container maxWidth="sm">
+      <Header></Header>
+      <Login></Login>
+      
+    </Container>
   );
 }
 
